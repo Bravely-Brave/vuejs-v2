@@ -28,6 +28,10 @@ export default createStore({
   mutations: {
     ajoutProd(state, product) {
       state.Products.push(product)
+    },
+
+    afficheProd(state){
+      state.Products
     }
   },
   actions: {

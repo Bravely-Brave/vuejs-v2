@@ -15,8 +15,8 @@
     <div>
       <!-- v-for pour boucle/ key : pour chaque produit dans mon tableau products et mettre une clé (clé unique qui différencie chaque produit) il va creer une div pour chaque produit qui existe-->
       <div v-for="product in products" :key="product.nom">
-        <!-- grace aux PROPS -->
         <CarteProd :product="product" />
+     
       </div>
     </div>
   </div>
@@ -67,6 +67,10 @@ export default {
         stock: null
       };
     },
+
+    afficheProd() {
+        this.$store.commit('afficheProd')
+      }
   },
 };
 </script>

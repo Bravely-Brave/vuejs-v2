@@ -2,6 +2,9 @@
     <div>
         <div>Store products </div>
     </div>
+
+       <!-- grace aux PROPS -->
+      
 </template>
 
 
