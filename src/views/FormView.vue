@@ -1,4 +1,8 @@
+<!-- les datas rentrer dans le formulaire s'affiche dans la console section array  -->
+
 <template>
+
+
   <form @submit.prevent="ajoutProd">
     <input type="text" placeholder="nom" v-model="formData.nom" />
     <input type="number" placeholder="prix" v-model="formData.prix" />
